@@ -1,5 +1,5 @@
 # Site settings
-title:          Tale
+title:          "chenkx"
 description:    "Minimal Jekyll theme for storytellers"
 url:            "https://ckxkexing.github.io"
 
@@ -8,7 +8,7 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
+  name:         kexing chen
   url:          https://chester.how
   email:        chesterhow@gmail.com
 
@@ -27,7 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  #- jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
