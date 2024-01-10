@@ -2,7 +2,7 @@
 layout: post
 title: "Notes of how to write technical report"
 author: "chenkexing"
-tags: "Technical Report"
+tags: "Technical-Report"
 excerpt_separator: <!--more-->
 ---
 
