@@ -3,7 +3,7 @@ title: Notes of how to write technical report
 subtitle:
 date: 2024-01-10
 slug: 66fbaa3
-draft: true
+draft: false
 author: 
   name: chenkexing
   link:
