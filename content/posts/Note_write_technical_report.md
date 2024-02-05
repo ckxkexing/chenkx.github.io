@@ -1,17 +1,47 @@
 ---
-layout: post
-title: "Notes of how to write technical report"
-author: "chenkexing"
-tags: "Technical-Report"
-excerpt_separator: <!--more-->
+title: Notes of how to write technical report
+subtitle:
+date: 2024-01-10
+slug: 66fbaa3
+draft: true
+author: 
+  name: chenkexing
+  link:
+  email:
+  avatar:
+description:
+keywords:
+license:
+comment: false
+weight: 0
+tags:
+  - Technical-Report
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRss: false
+hiddenFromRelated: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
 ---
 
 基于《A guide to technical report writing》文章做的笔记。
 <!--more-->
 
-# 1. What makes a good technical report?
+## 1. What makes a good technical report?
 
-There are ``10 suggests`` that good report writing which should be generally applied (but broken if necessary). Notice that the first law is repeated (the first and the last law) because it's a law which shouldn't be broken. 
+There are **10 suggests** that good report writing which should be generally applied (but broken if necessary). Notice that the first law is repeated (the first and the last law) because it's a law which shouldn't be broken. 
 
 1. Produce the report for your reader(s)
 2. keep the report as short as possible
@@ -24,28 +54,28 @@ There are ``10 suggests`` that good report writing which should be generally app
 9. consider design as well as content
 10. produce the report for you reader(s)
 
-# 2. Objectives
+## 2. Objectives
 First of all, you have to set the objectives for your report before you start writing. And the objectives should identify:
-- ``who`` you're producing the report for
-- ``why`` you're producing the report
-- ``what`` information you're covering
+- **who** you're producing the report for
+- **why** you're producing the report
+- **what** information you're covering
 
 If we do not clear objectives, would make report unclear. A report which tried to be both a specification of a machine and a report on the results of using a machine left readers in confusion, as it didn't provide a precise specification or a satisfactory conclusion.
 
 Knowing your reader should determine your approach, the technical content and style of your writing. You should ask yourself the following question:
 
-- What does the reader ``already know`` about the subject?
-- What do you ``need to tell`` the reader?
+- What does the reader **already know** about the subject?
+- What do you **need to tell** the reader?
 - Why does a particular reader need this particular report?
-- What is the ``desired response`` from the reader?
-- How can you ``bridge the gap`` between what the reader knows already and what they need to know, in order to produce the desired response?
+- What is the **desired response** from the reader?
+- How can you **bridge the gap** between what the reader knows already and what they need to know, in order to produce the desired response?
 - What level of formality is appropriate? (a short emailed report to a colleague will be less formal than a report for a managing director of another company)
 
 By the way, reports are often written for multiple readers, for example, technical and financial managers. Writing two separate reports would be time-consuming and risk offending people who are not party to all of the information.
 
-One solution to this problem is strategic use of ``appendices``.
+One solution to this problem is strategic use of **appendices**.
 
-# 3. Format
+## 3. Format
 
 Once the objectives have been established, start organising the information available. As you find material, put it into one of three categories:
 
@@ -55,15 +85,15 @@ Once the objectives have been established, start organising the information avai
 
 Set aside the third category of information to check it later. Material in the first category should be included in the main body of the report. Material in the second category should be included in appendices.
 
-## Appendices
+### Appendices
 
 Thinking about appendices at an early stage. Appendices should be used to remove from the main text all information which is not needed by the majority of readers.
 
-# 4. Writing
+## 4. Writing
 
 A well-written report is easier to read, makes your meaning clear and builds the reader's confidence in what you are saying.
 
-## Spelling
+### Spelling
 
 When you've completed a section of the report, check it for spelling errors. If you're relying on a spellchecker programme, watch out for the following errors which may not be picked up:
 
@@ -71,33 +101,33 @@ When you've completed a section of the report, check it for spelling errors. If 
 - Technical words
 - New technical words: Where both variants are still used, go for one word, as hyphens tend to clutter up the text. For example, use "cybersecurity" than "cyber-security", use "email" than "e-mail".
 
-## Punctuation
+### Punctuation
 
 Commas — can transform the meaning of sentences.
 
 Hyphens — Do use hyphens if not using them will lead to anbiguous meaning. For example, 'a cross-section of staff' vs 'a cross section of staff'.
 
-## Sentences
+### Sentences
 
-Good style involves varying sentence length. A long technical explanation, which mentions somewhere in the middle that maintenance costs can be reduced, risks the important point ``being lost``.
+Good style involves varying sentence length. A long technical explanation, which mentions somewhere in the middle that maintenance costs can be reduced, risks the important point **being lost**.
 
-``Short sentences`` provide a clear, easy-to-read style for factual information. Where information needs to be compared with other information, ``longer sentences`` can work better.
+**Short sentences** provide a clear, easy-to-read style for factual information. Where information needs to be compared with other information, **longer sentences** can work better.
 
-## Paragraphs
+### Paragraphs
 
 段落既要统一内容，又要使文档更具有可读性。
 一页分成多段，能鼓励读者继续阅读，而一长段的内容则可能被丢弃。
 
 Paragraphs should unify content, but also be used to make the document more readable. Several paragraphs on a page with resulting spaces encourage reading, while a long block of text if off-putting.
 
-## Formality
+### Formality
 
-- Reports are formal documents, but that doesn't mean you have to use ``overly complex words`` or grammar.
+- Reports are formal documents, but that doesn't mean you have to use **overly complex words** or grammar.
 	- 'send' rather than 'dispatch'
 	- 'finish' rather than 'draw to a conclusion'.
 - Writing in an impersonal style can also make sentences difficult to read. e.g. 'It was immediately apparent to the writers...'. Use the more straightforward active voice: "I recommend" or "We recommend".
 
-## Example
+### Example
 
 **Origin:**
 
@@ -118,70 +148,70 @@ Paragraphs should unify content, but also be used to make the document more read
 5. break up text into shorter sentences and paragraphs for ease of reading
 
 
-# 5. Diagrams
+## 5. Diagrams
 
 Diagrams — include tables, graphs, photographs and line drawings — are an essential part of many technical reports.
 
 They can summarise a lot of information or clarify a situation or complex details in a way that continuous text can't.
 
-## Positioning 位置
+### Positioning 位置
 
-Most readers do not like to have their reading ``interrupted`` to search for a related diagram.
+Most readers do not like to have their reading **interrupted** to search for a related diagram.
 
 If you want readers to pay attention to you diagrams, you need to position them in the right place ——where they are needed. That means positioning a diagram close to the text that refers to it, or if it is supplementary information only, in an appendix.
 
-## Tables 表格
+### Tables 表格
 
 Tables can bring together a great deal of information for the reader when presented effectively. The use of space, in particular, can make the table easier to read.
 
 Tips for creating space in your tables
 
-- Put units and ``powers of ten`` in column headings
-- ``Group together similar items``, e.g. in annual financial breakdown, you could group together months in quarters (January-March)
-- ``Think about how much detail your reader needs.`` Do they need the exact figures or can they be rounded? Do they need all the data or can some be omitted/put in an appendix?
+- Put units and **powers of ten** in column headings
+- **Group together similar items**, e.g. in annual financial breakdown, you could group together months in quarters (January-March)
+- **Think about how much detail your reader needs.** Do they need the exact figures or can they be rounded? Do they need all the data or can some be omitted/put in an appendix?
 
-## Graphs
+### Graphs
 
 Graphs are used to show trends or give accurate technical information. If graphs are to be compared, use the same scale for each.
 
-## Diagram references
+### Diagram references
 
 表格需要在文本中被引用出现。第一个数字为章节号，第二个数字则为顺序小数。
 
 > For example, Figure 3.7 is the seventh diagram in section three of the report.
 
-## Checklist for diagrams
+### Checklist for diagrams
 
 - Does it give the reader the required information?
 - Is it easy to use?
 - Does it look attractive?
 
-# 6. Finishing the report
+## 6. Finishing the report
 
 “总结”、“概述”章节一般是放在文章的末尾写的。
 
-## Summaries
+### Summaries
 
-A summary gives a general picture of the report for those who want to be reminded of ``what they have read`` of for those who will never read the whole report.
+A summary gives a general picture of the report for those who want to be reminded of **what they have read** of for those who will never read the whole report.
 
 It makes the report's 'answer', its conclusions and recommendations immediately available.
 
-For this reason, it's the section that is read by the ``majority`` and the most senior readers(often ``the decision makers``) who might not have the time or interest to look into the detail.
+For this reason, it's the section that is read by the **majority** and the most senior readers(often **the decision makers**) who might not have the time or interest to look into the detail.
 
-``Tips`` on writing your summary:
+**Tips** on writing your summary:
 
-- Keep it ``under 250 words`` for a report of up to 50 pages. You may need to start with too many words and edit down.
-- ``Give enough background`` information for your summary to make sense to a reader who hasn't read the whole report.
+- Keep it **under 250 words** for a report of up to 50 pages. You may need to start with too many words and edit down.
+- **Give enough background** information for your summary to make sense to a reader who hasn't read the whole report.
 - Comment on major findings and highlight conclusions of importance. 
 - Use continuous prose — diagrams in summaries are rare. - 使用文本，而不是图表进行总结。
 
-## Abstracts
+### Abstracts
 
-Abstracts are used to ``bring together the report and potential readers,`` attracting readers who might not necessarily consider the report relevant to them.
+Abstracts are used to **bring together the report and potential readers,** attracting readers who might not necessarily consider the report relevant to them.
 
-The abstract selects areas of ``interest covered`` by the report and may include a list of ``key words``, so that your report is more discoverable.
+The abstract selects areas of **interest covered** by the report and may include a list of **key words**, so that your report is more discoverable.
 
-## Title page
+### Title page
 
 As the title page is the first page that the reader will see, make sure it includes the relevant details:
 
@@ -191,7 +221,7 @@ As the title page is the first page that the reader will see, make sure it inclu
 - Date
 - Classification(confidential, etc) if appropriate
 
-## Checking
+### Checking
 
 Give your report a final check, as an error-free document will strengthen its credibility. Where possible, ask two people to check your report:
 1. A technical expert who can assess the amount of explanation given, the validity of data and the logical flow of information.
