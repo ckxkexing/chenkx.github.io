@@ -41,11 +41,11 @@ repost:
 
 ## 1. What makes a good technical report?
 
-There are **10 suggests** that good report writing which should be generally applied (but broken if necessary). Notice that the first law is repeated (the first and the last law) because it's a law which shouldn't be broken. 
+There are **10 suggests** that good report writing which should be generally applied (but broken if necessary). Notice that the first law is repeated (the first and the last law) because it's a law which shouldn't be broken.
 
 1. Produce the report for your reader(s)
 2. keep the report as short as possible
-3. organise information for the convenience of the reader 
+3. organise information for the convenience of the reader
 4. include accurate references
 5. ensure your writing is accurate, concise and straightforward
 6. include diagrams with the right labels in the right place for your reader
@@ -55,7 +55,9 @@ There are **10 suggests** that good report writing which should be generally app
 10. produce the report for you reader(s)
 
 ## 2. Objectives
+
 First of all, you have to set the objectives for your report before you start writing. And the objectives should identify:
+
 - **who** you're producing the report for
 - **why** you're producing the report
 - **what** information you're covering
@@ -122,9 +124,9 @@ Paragraphs should unify content, but also be used to make the document more read
 
 ### Formality
 
-- Reports are formal documents, but that doesn't mean you have to use **overly complex words** or grammar.
-	- 'send' rather than 'dispatch'
-	- 'finish' rather than 'draw to a conclusion'.
+- Reports are formal documents, but that doesn't mean you have to use **overly complex words** or grammar:
+  - 'send' rather than 'dispatch'
+  - 'finish' rather than 'draw to a conclusion'.
 - Writing in an impersonal style can also make sentences difficult to read. e.g. 'It was immediately apparent to the writers...'. Use the more straightforward active voice: "I recommend" or "We recommend".
 
 ### Example
@@ -136,17 +138,16 @@ Paragraphs should unify content, but also be used to make the document more read
 **Revised example:**
 
 > On the XYZ sub-station board, we are unable at present to meet the demand(1200 amperes per phase) required to operate the new plant using the existing oil circuit breakers (OCBs). Spares are not available and the old equipment cannot be uprated.
-> 
+>
 > We therefore suggest replacing some of the existing switchgear with new vacuum circuit breakers(VCBs). The proposal is costed below.
 
-**修改的地方**
+#### 修改的地方
 
 1. move 'at present' so emphasis is on the substation board
 2. replace unnecessarily complex language 'we have no facility' with 'we are unable to'
 3. amps is not a recognised abbreviation for amperes
 4. spell out acronym before using it (OCB)
 5. break up text into shorter sentences and paragraphs for ease of reading
-
 
 ## 5. Diagrams
 
@@ -202,7 +203,7 @@ For this reason, it's the section that is read by the **majority** and the most 
 
 - Keep it **under 250 words** for a report of up to 50 pages. You may need to start with too many words and edit down.
 - **Give enough background** information for your summary to make sense to a reader who hasn't read the whole report.
-- Comment on major findings and highlight conclusions of importance. 
+- Comment on major findings and highlight conclusions of importance.
 - Use continuous prose — diagrams in summaries are rare. - 使用文本，而不是图表进行总结。
 
 ### Abstracts
@@ -224,8 +225,8 @@ As the title page is the first page that the reader will see, make sure it inclu
 ### Checking
 
 Give your report a final check, as an error-free document will strengthen its credibility. Where possible, ask two people to check your report:
+
 1. A technical expert who can assess the amount of explanation given, the validity of data and the logical flow of information.
 2. A non-expert who can check for spelling/grammar errors.
 
 If you're checking your own work, do it with fresh eyes. Leave the report for at least 48 hours after writing it, before you give it that final check. Then it's ready to go!
-

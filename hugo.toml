@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = "Chen Kexing's Blogs"
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -11,6 +11,155 @@ theme = "FixIt"
 [params]
   # FixIt theme version
   version = "0.2.X"
+
+  # Author Configuration
+  [params.author]
+    name = "ckx"
+    email = ""
+    link = ""
+    avatar = ""
+
+
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "FixIt"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
+    # FixIt 0.2.12 | CHANGED Android browser theme color
+    [params.app.themeColor]
+      light = "#f8f8f8"
+      dark = "#252627"
+ 
+  # FixIt 0.2.17 | NEW TagCloud config for tags page
+  [params.tagcloud]
+    enable = false
+    min = 14 # Minimum font size in px
+    max = 32 # Maximum font size in px
+    peakCount = 10 # Maximum count of posts per tag
+    orderby = "name" # Order of tags, optional values: ["name", "count"]
+
+  # Home page config
+  [params.home]
+    # FixIt 0.2.0 | NEW amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # FixIt 0.2.17 | NEW identifier of avatar menu link
+      avatarMenu = ""
+      # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = "This is my new Blog site"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # FixIt 0.2.0 | NEW disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+
+  # FixIt 0.2.16 | CHANGED Social config about the author
+  [params.social]
+    GitHub = "ckxkexing"
+    Linkedin = ""
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = ""
+    ORCID = ""
+    Liberapay = ""
+    Ko-Fi = ""
+    BuyMeaCoffee = ""
+    Linktree = ""
+    QQ = ""
+    QQGroup = "" # https://qun.qq.com/join.html
+    Diaspora = ""
+    CSDN = ""
+    Discord = ""
+    DiscordInvite = ""
+    Lichess = ""
+    Pleroma = ""
+    Kaggle = ""
+    MediaWiki= ""
+    Plume = ""
+    HackTheBox = ""
+    RootMe = ""
+    Feishu = ""
+    TryHackMe = ""
+    Phone = ""
+    Email = ""
+    RSS = false
 
 [menu]
   [[menu.main]]
